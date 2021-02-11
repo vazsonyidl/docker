@@ -1,0 +1,12 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "Docker playground",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
