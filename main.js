@@ -8,8 +8,10 @@ const HOST = '0.0.0.0';
 
 // App
 const app = express();
+app.use(express.static('static'))
+
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send();
 });
 
 app.listen(PORT, HOST);
