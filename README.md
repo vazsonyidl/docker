@@ -1,6 +1,6 @@
 ## Command for build nginx image & run it in a container
 
-####Build
+#### Build
 > docker build -t nginx-test -f dockerfiles/nginx.Dockerfile .
 
 #### Run
